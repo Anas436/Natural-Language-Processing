@@ -88,6 +88,6 @@ elif selected == "Model":
     model_section()
 
 elif selected == "Contributors":
-    st.write("<h1 style='text-align:center;'>A heartfelt thankyou to all of our contributors ❤️</h1> <hr><br>",
+    st.write("<h1 style='text-align:center;'>A heartfelt thankyou to all of our contributors. ❤️</h1> <hr><br>",
              unsafe_allow_html=True)
     contributors_page()
