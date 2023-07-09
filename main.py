@@ -80,11 +80,11 @@ def model_section():
         message(uploaded_text, is_user=True, avatar_style="identicon")
 
         if response in ["Disaster.", "Yes."]:
-            st.error("## Disaster related tweet detected.")
             message("The tweet is related to disaster.", avatar_style="shapes")
+            st.error("## Disaster related tweet detected.")
         elif response in ["Not disaster.", "No."]:
-            st.success("### No disasters detected.")
             message("The tweet is not related to a disaster.", avatar_style="shapes")
+            st.success("### No disasters detected.")
         else:
             message(response)
 
