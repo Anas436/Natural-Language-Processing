@@ -5,8 +5,11 @@ import streamlit as st
 from streamlit_chat import message
 from streamlit_option_menu import option_menu
 
-openai.api_key = os.getenv('OPENAI_API')
-secret_text = os.getenv('NLP_TEXT')
+# openai.api_key = os.getenv('OPENAI_API')
+# secret_text = os.getenv('NLP_TEXT')
+
+openai.api_key = st.secrets('OPENAI_API')
+secret_text = st.secrets('NLP_TEXT')
 
 
 def nlp_model(input_message):
