@@ -28,3 +28,7 @@ To use the application, run the `main.py` file with the streamlit CLI (after hav
 streamlit run main.py
 ```
 
+## Resources
+
+- Omdena Local Chapter [Link](https://omdena.com/chapter-challenges/natural-language-processing-with-disaster-tweets/)
+
